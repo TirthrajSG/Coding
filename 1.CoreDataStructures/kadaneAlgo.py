@@ -5,9 +5,6 @@ Find the contiguous subarray with the largest sum.
 
 """
 
-def maxSum(arr): # Intuitive
-    pass
-
 def kadaneAlgo(arr):
     max_sum = float('-inf')
     current_sum = float("-inf")
