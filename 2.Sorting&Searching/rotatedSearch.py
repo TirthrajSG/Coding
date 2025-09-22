@@ -23,5 +23,8 @@ def rotatedSearch(arr, ele):
     return -1
 
 arr = [4,5,6,7,0,1,2]
-ele = 0
-print(rotatedSearch(arr,ele))
+
+print(rotatedSearch(arr,0))
+print(rotatedSearch(arr,2))
+print(rotatedSearch(arr,4))
+print(rotatedSearch(arr,8))
